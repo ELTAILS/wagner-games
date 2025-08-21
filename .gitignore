@@ -1,0 +1,22 @@
+# CONFIGURAÇÕES LOCAIS
+.vscode/
+.idea
+
+# SISTEMA / CACHE
+*.log
+*.tmp
+
+# SENHAS / CONFIGS
+.env
+config.php
+config-local.php
+
+# BACKUPS
+*.sql
+*.sql.gz
+
+#pasta
+database/
+
+#arquivos
+/.htaccess
