@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex: 1 1 100vh;
+    flex-wrap: wrap;
+    background-color: #f8f8f8;
+}
+
+/*Cabeçalho*/
+
+.top {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 99; /*Item não atravesa com valor fixo*/
+}
+
+#cabecalho .logoimg img {
+    width: 100px;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#cabecalho {
+    display: flex;
+    flex: 1 1 100vw;
+    background-color: goldenrod;
+    filter: brightness(1.2);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+}
+
+#cabecalho ul {
+    list-style: none;
+}
+
+#cabecalho ul li {
+    display: inline-block;
+}
+
+#cabecalho ul li a {
+    text-decoration: none;
+    color: #000;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    transition: all 1s ease;
+}
+
+#cabecalho ul li a:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.nav-cabecalho {
+    margin: auto;
+}
+
+nav#menu-cabecalho li {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+/*curriculo*/
+
+
+/*input header*/
+
+.search-box {
+    position: relative;
+    width: 250px;
+}
+
+.search-box {
+    margin: auto;
+    width: 100%;
+}
+
+.search-box input{
+    width: 80%;
+    padding: 1rem 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid #222;
+    text-transform: uppercase;
+}
+
+#lista {
+    display: none; /* começa escondida */
+    list-style: none;
+    margin: 5px 0 0;
+    padding: 0;
+    border: 2px solid #222;
+    background: #fff;
+    max-height: 150px;
+    overflow-y: auto;
+    
+    border-radius: 1rem;
+}
+
+#lista li {
+    padding: 8px;
+}
+
+#lista li:hover {
+    background: #fff;
+    cursor: pointer;
+}
+
+#lista li a {
+    color: #222;
+    transition: ease-in-out 1s;
+}
+
+#lista li a:hover {
+    color: purple;
+}
+
+/*fim*/
+.logoimg {
+    margin: auto;
+}
+
+#menu {
+    display: flex;
+    flex: 1 1 100vw;
+}
+
+menu {
+    display: flex;
+    flex: 1 1 100vw;
+}
+
+#anuncio {
+    display: flex;
+    flex: 1 1 100vw;
+}
+
+.rodape {
+    display: flex;
+    flex: 1 1 100vw;
+}
+
+/*MENU*/
+
+#ul-menu {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    background-color: #222;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+#ul-menu li a {
+    color: #fff;
+    margin: 0.8rem;
+    padding: 1rem;
+    text-decoration: none;
+    border: 2px solid #222;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    transition: all 1s ease;
+}
+
+#ul-menu li a:hover {
+    border: 2px solid #000;
+    cursor: pointer;
+    background-color: #fff;
+    color: #222;
+}
+
+/*Rodape*/
+
+footer {
+    width: 100%;
+}
+
+.rodape {
+    display: flex;
+    height: 100%;
+    background-color: #222;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.rodape h3 {
+    font-size: 1.5rem;
+}
+
+.rodape p {
+    font-size: 1.2rem;
+}
+
+.rodape .nome-rodape h1 {
+    color: #000;
+    border: 2px solid #000;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    margin: 0.5rem;
+    font-size: 2.5rem;
+    background-color: yellow;
+}
+
+.rodape-termo-de-uso {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.rodape-termo-de-uso .termo-de-uso {
+    border: 2px solid #fff;
+    color: #f1f1f1;
+    text-align: justify;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.rodape-termo-de-uso .termo-de-uso:hover , .rodape .nome-rodape h1:hover {
+    box-shadow: 0 0 8px #fff;
+}
+
+.redes-sociais {
+    margin: auto;
+}
+
+.redes-sociais ul{
+    list-style: none;
+}
+
+.redes-sociais ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    transition: all 1s ease;
+}
+
+.redes-sociais ul li {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.redes-sociais ul li a:hover {
+    background-color: #fff;
+    color: #222;
+    border: 2px solid #000;
+}
+
+.todos-os-direitos-reservados {
+    background-color: #f1f1f1;
+    color: #222;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.todos-os-direitos-reservados p {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+/*ANUNCIO*/
+img#anuncio-img {
+    width: 300px;
+}
+
+#anuncio {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+#anuncio:hover {
+    background-color: gray;    
+}
+
+#fechar-anuncio {
+   background-color: lightgray;
+   height: 1.5rem;
+   transition: all 1s ease;
+}
+
+#fechar-anuncio:hover {
+    background-color: #222;
+    cursor: pointer;
+    color: #fff;
+}
+
+/*PRINCIPAL*/
+/*HISTORIA*/
+menu {
+    display: block;
+    margin: 25px 100px;
+}
+
+.historia {
+    margin-bottom: 2rem;
+}
+
+.wagner-games {
+    border: 3px solid gray;
+    padding: 1rem;
+    margin: 0.5rem;
+    transition: all 1s ease; /*transition indo e voltando*/
+}
+
+.wagner-games:hover {  
+    border-style: solid;
+    border-width: 3px;
+    border-top-color: red;
+    border-bottom-color: blue;
+    border-left-color: green;
+    border-right-color:yellow;
+    transform: scale(1.1);
+}
+/*LANÇAMENTOS HOME*/
+
+#games_home table tr td .lancamentos-home img{
+    height: 150px;
+}
+
+#games_home table tr td .lancamentos-home , th{
+    text-align: center;
+}
+
+.lancamentos-home {
+    border-style: solid;
+    border-width: 0.4rem;
+    border-radius: 0.5rem;
+    border-top-color: purple;
+    border-bottom-color: darkorchid;
+    border-left-color: darkorchid;
+    border-right-color: purple;
+
+    margin: 0.5rem 1rem;
+    padding: 0.5rem;
+
+    animation-name: animacao_home;
+    animation-duration: 3s;
+    animation-delay: 0.75s;
+    animation-iteration-count: infinite;
+
+    transition: ease-in-out 1s;
+}
+
+.lancamentos-home:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.lancamentos-home p {
+    text-align: justify;
+}
+
+.lancamentos-home h3 {
+    text-decoration: underline;
+}
+
+#btn_home {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    background-color: #222;
+    color: #fff;
+    border-radius: 0.5rem;
+    border: 2px solid #222;
+    transition: ease-in-out 1s;
+}
+
+#btn_home:hover {
+    background-color: #fff;
+    color: #222;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+/*animação*/
+
+@keyframes animacao_home {
+    0% {
+        border-top-color: purple;
+        border-bottom-color: darkorchid;
+        border-left-color: darkorchid;
+        border-right-color: purple;
+    }
+    25% {
+        border-top-color: darkorchid;
+        border-bottom-color: purple;
+        border-left-color: purple;
+        border-right-color: darkorchid;
+    }
+
+    50% {
+        border-top-color: purple;
+        border-bottom-color: darkorchid;
+        border-left-color: darkorchid;
+        border-right-color: purple;
+    }
+    75% {
+        border-top-color: darkorchid;
+        border-bottom-color: purple;
+        border-left-color: purple;
+        border-right-color: darkorchid;
+    }
+}
+
+.th-home h2{
+    text-transform: uppercase;
+    color: #222;
+}
+
+.th-home {
+    background-color: gold;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/*Pagamentos*/
+
+.pagamento_pai {
+    display: grid;
+    grid-template-columns: 20% 30% 40%;
+    padding: 1rem;
+    background-color: #222;
+    width: 100%;
+}
+
+.logo_pagamento{
+    width: 150px;
+    border-radius: 0.5rem;
+}
+
+.formas_de_pagamento {
+    width: 300px;
+    border: 2px solid purple;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+.pagamento {
+    margin: auto;
+}
+
+.pagamento p {
+    text-align: justify;
+    color: #f1f1f1;
+    border: 2px solid #fff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1.15rem;
+}
+
+/*PCS PAGINA*/
+
+.pc_table table{
+    width: 100%;
+}
+
+/*FIM PCS PAGINA*/
+/*Extras*/
+hr {
+    background-color: #f8f8f8;
+    padding: 2px;
+}

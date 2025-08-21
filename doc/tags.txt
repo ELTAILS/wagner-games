@@ -1,0 +1,9 @@
+<?php foreach ($pc as $produto): ?>
+    <div class="pc">
+        <h3><?= $produto["nome"] ?></h3>
+        <img src="<?= $produto["img"] ?>" alt="logo pc">
+        <p>Entre R$<?= $produto["preco"][0] ?> até R$<?= $produto["preco"][1] ?></p>
+        <p><?= $produto["descricao"] ?></p>
+    </div>
+<?php endforeach; ?>
+-----------------------------------------------

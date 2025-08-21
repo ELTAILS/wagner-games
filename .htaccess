@@ -1,0 +1,9 @@
+# tirar o extenção URL .PHP
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+# Define a página personalizada para erro 404
+ErrorDocument 404 php/pagina-erro.php
