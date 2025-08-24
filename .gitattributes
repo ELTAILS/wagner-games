@@ -1,0 +1,27 @@
+# ============================
+# Configuração do GitHub Linguist
+# Projeto: Wagner Games
+# ============================
+
+# --- PHP (prioridade) ---
+*.php linguist-detectable=true
+*.php linguist-language=PHP
+
+# --- HTML (detectável normalmente) ---
+*.html linguist-detectable=true
+*.htm linguist-detectable=true
+
+# --- CSS (detectável normalmente) ---
+*.css linguist-detectable=true
+
+# --- JavaScript (detectável normalmente) ---
+*.js linguist-detectable=true
+
+# --- Arquivos que NÃO devem contar como linguagem ---
+*.md linguist-documentation
+*.txt linguist-documentation
+*.json linguist-vendored
+*.lock linguist-vendored
+*.yml linguist-vendored
+*.yaml linguist-vendored
+*.svg linguist-vendored
