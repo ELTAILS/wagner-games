@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wagner games | home</title>
+    <title>Wagner games | HOME</title>
     <link rel="shortcut icon" href="img/favicon/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css"  href="css/style.css">
     <!--Link-->
